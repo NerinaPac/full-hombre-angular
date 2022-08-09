@@ -1,0 +1,38 @@
+
+.card-noticias{
+    max-width: 24rem;
+    max-height: 24rem;
+    transition: all 2s;
+
+    &:hover{
+         transform:scale(1.1);
+
+    }
+
+}
+
+.card-noticias_info{ 
+    text-decoration: none;
+    color: black;
+    & img {
+        height: 15rem;
+        
+    }
+    & h2{
+        text-align: center;
+        
+    }
+}
+
+
+
+@media (max-width: 878px) {
+    .card-noticias{
+    max-width: 40rem;
+    max-height: 30rem;
+
+    & img {
+        height: auto;
+    }
+}
+}    

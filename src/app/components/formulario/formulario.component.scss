@@ -1,0 +1,36 @@
+.denuncia{
+
+    background-color: var(--celesteclaro);
+    max-width: 25rem;
+    max-height: 30rem;
+    margin: 2rem auto;
+    border: 2px solid black;
+    padding: 1rem;
+    box-shadow: 6px 6px 30px;
+
+    
+    &_enviar{
+        padding: 2px 12px;
+        
+    }
+
+    .denuncia-form_campos{
+        resize: both;
+        width: auto;
+    }
+    
+   
+}
+
+@media (max-width: 450px) {
+    .denuncia{
+        margin: 0 2rem;
+
+    }
+    .denuncia-form_campos{
+       resize: none;
+       width: 5rem;
+
+}    
+}
+

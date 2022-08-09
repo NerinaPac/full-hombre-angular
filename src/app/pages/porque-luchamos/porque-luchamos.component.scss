@@ -1,0 +1,40 @@
+body{
+    background-color: var(--naranja);
+    padding: 1rem 0;
+}
+
+
+.pqluchamos-cuadrotext h2{
+    text-align: center;
+    text-decoration: underline;
+}
+
+.cuadrotext-nuestralucha{
+    background-color: var(--celesteclaro);
+    max-width: 65rem;
+    margin: 1rem auto;
+    margin-top: 2rem;
+    padding: 1rem;
+    border: 1px solid black;
+    box-shadow: 1px 1px 5px;
+
+}
+
+.cuadrotext-nuestralucha p{
+    text-align: justify;
+    margin-top: 8px;
+}
+
+.cuadrotext-nuestralucha img{
+    box-shadow: 1px 1px 1px;
+    width: 65rem;
+}
+
+@media (max-width: 1150px) {
+
+.cuadrotext-nuestralucha{
+    margin: 2rem 3rem;
+
+
+}
+}

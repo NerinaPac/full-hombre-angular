@@ -1,0 +1,10 @@
+<div class="card-contenedor">
+
+<app-card 
+*ngFor="let info of data; let primera = first;" [ngClass]="{desaparecer:primera}"
+[imagen] = "info.imagen"
+[titulo] = "info.titulo"
+        
+        
+></app-card>
+

@@ -1,0 +1,44 @@
+<div class="denuncia">
+    <form action="api/agregar-exposicion" class="denuncia-form" method="post">
+
+        <label class="denuncia-form_campos"> 
+            Nombres:
+            <input type="text" name="nombre">               
+        </label>
+        <br><br>
+        <label class="denuncia-form_campos"> 
+                Apellidos:
+                <input type="text" name="apellido">                   
+        </label>       
+        <br><br>
+        <label>
+            Edad:
+            <input type="text" name="edad">
+        </label>
+        <br><br>
+        <label class="denuncia-form_campos"> 
+                E-mail:                           
+            <input type="Email" name="email"required>
+        </label>
+        <br><br>
+
+        <label class="denuncia-form_campos"> 
+            Telefono:                           
+        <input type="tel" name="telefono" required>
+        </label>
+        
+        <br><br>
+
+        <label for="denuncia-form_expo">Escribinos tu denuncia</label>
+        
+        <textarea name="exposicion" cols="40" rows="10" class="denuncia-form_campos"></textarea>
+        <br>
+
+        <input type="submit" value="Enviar" class="denuncia_enviar">
+
+
+    </form>
+
+    
+</div>
+

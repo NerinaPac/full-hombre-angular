@@ -1,0 +1,72 @@
+.cartel{
+    background-color: var(--celesteclaro);
+    display: flex;
+    margin: 2rem auto;
+    max-width: 60rem;
+    justify-content: center;
+    align-items: center;
+    border: black solid 1px;   
+    box-shadow: 0px 0px 5px 0px;
+    overflow: hidden;
+    
+    &-img {
+        max-width: 25rem;
+        filter: drop-shadow(0 2px 5px rgba(0, 0, 0, 0.7));
+        
+
+    }
+
+    & h2{
+        text-align: center;
+        padding-right: 2rem;
+       
+    }
+
+}
+
+@media (max-width: 1200px) {
+
+    .cartel{
+        max-width: 50rem;
+        &-img {
+            max-width: 20rem;
+           }
+}
+}
+
+@media (max-width: 995px) {
+
+    .cartel{
+        max-width: 40rem;
+        &-img {
+            max-width: 15rem;
+           }
+        }
+}
+
+@media (max-width: 700px) {
+
+    .cartel{
+        max-width: 25rem;
+        &-img {
+            max-width: 10rem;
+           }
+        & h2{
+            text-align: center;
+            padding-right: 1rem;
+            font-size: small;
+           
+        }
+        }
+}
+
+@media (max-width: 450px) {
+
+    .cartel{
+        max-width: 24rem;
+        &-img {
+            max-width: 7rem;
+           }
+        
+        }
+}

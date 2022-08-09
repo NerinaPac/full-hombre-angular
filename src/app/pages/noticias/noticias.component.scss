@@ -1,0 +1,16 @@
+body {
+    padding: 2rem 0;
+    text-align: center;
+    & h2 {
+        padding-bottom: 2rem;
+        text-decoration:underline;
+    }
+}
+
+.contenedor-noticion{
+    margin: 0 2rem;
+    display: flex;
+    justify-content: center;
+    
+     
+}
