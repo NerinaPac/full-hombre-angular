@@ -9,13 +9,10 @@ import { ActivationEnd } from '@angular/router';
 export class NavComponent implements OnInit {
 
   constructor() { }
+  public myClass:boolean = true;
 
-  activo:boolean = true;
-
-  mostrarmenu () {
-    this.activo = true;
-    console.log("funciona");
-
+    mostrarmenu ():void {
+    this.myClass = !this.myClass;
   }
 
   ngOnInit(): void {
