@@ -1,16 +1,17 @@
 <header class="encabezado">
-    <div class="encabezado-logo">
-        
-        
+    <div class="encabezado-logo">       
         <a class="encabezado-logo-a" href="">
         <img src="assets/logo.png" alt="hombre animado">        
         <h1>Movimiento por la Igualdad</h1>
         </a>
+
+        <button type="menu" class="encabezado-logo-boton" (click)="mostrarmenu()">
+            Menu
+        </button>
+
     </div>
 
-    <button type="menu" class="hamburguesa" (click)="mostrarmenu()">
-       Menu
-    </button>
+    
 
     <nav [className]="myClass ? 'botonera-list': 'ocultarmenu' ">
 
