@@ -1,7 +1,7 @@
 .encabezado {
     background-color: var(--grisclaro);    
     max-width: 100%;
-    min-height: 5rem;
+    min-height: 4rem;
     display: flex;
     justify-content:space-around;
     align-items: center;
@@ -57,7 +57,7 @@
 .botonera-list{
     display:flex;
     justify-content: center;
-   flex-wrap:wrap;
+   
 
 
     &-item{
@@ -97,7 +97,8 @@
         font-size:small;
     }
     .botonera-list-item-a{
-        background-color: aqua;
+        background-color: var(--grisclaro);
+        border: 1px outset black;
         padding: 8px;
         margin: 0;
     }
@@ -124,10 +125,22 @@
 
 }
 
+@media (max-width: 810px) {
+
+    .encabezado-logo-a{
+        font-size:x-small;
+    }
+    .botonera-list-item-a{
+        font-size: 12px;
+    }
+
+}
+
 @media (max-width: 650px) {
 
     .encabezado{
-        display: inline;
+        display: block;
+        align-items: center;
 
 
         &-logo{
@@ -141,6 +154,7 @@
     }
     .botonera-list{
         display: inline;
+        flex-wrap:wrap;
        
     }
 
