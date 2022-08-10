@@ -1,5 +1,4 @@
-<div class="denuncia">
-    <form action="api/agregar-exposicion" class="denuncia-form" method="post">
+<form action="api/agregar-exposicion" class="denuncia-form" method="post" class="denuncia" title="formulario de denuncia">
 
         <label class="denuncia-form_campos"> 
             Nombres:
@@ -29,16 +28,14 @@
         
         <br><br>
 
-        <label for="denuncia-form_expo">Escribinos tu denuncia</label>
-        
+        <label for="exposicion">
+            Escribinos tu denuncia:
         <textarea name="exposicion" cols="40" rows="10" class="denuncia-form_campos"></textarea>
+        </label>
         <br>
 
         <input type="submit" value="Enviar" class="denuncia_enviar">
 
+</form>
 
-    </form>
-
-    
-</div>
 
