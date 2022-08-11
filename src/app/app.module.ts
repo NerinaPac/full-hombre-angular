@@ -23,6 +23,8 @@ import { NoticiasComponent } from './pages/noticias/noticias.component';
 import { NoticionComponent } from './components/noticion/noticion.component';
 import { NoticiaComponent } from './pages/noticia/noticia.component';
 import { CartelComponent } from './components/cartel/cartel.component';
+import { EstadisticaComponent } from './components/estadistica/estadistica.component';
+import { EstadisticasWrapperComponent } from './components/estadisticas-wrapper/estadisticas-wrapper.component';
 
 @NgModule({
   declarations: [
@@ -43,7 +45,9 @@ import { CartelComponent } from './components/cartel/cartel.component';
     NoticiasComponent,
     NoticionComponent,
     NoticiaComponent,
-    CartelComponent
+    CartelComponent,
+    EstadisticaComponent,
+    EstadisticasWrapperComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,15 @@
+.contenedor-estadistica{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 85%;
+
+}
+
+@media (max-width: 1315px) {
+    .contenedor-estadistica{
+        flex-wrap: wrap;
+    }
+
+    
+}

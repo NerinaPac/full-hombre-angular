@@ -2,11 +2,21 @@
     <main>
         <app-carrucel></app-carrucel>
 
-        <app-cartel></app-cartel>
+        <app-cartel
+        [imagen] = "carteleria[0].imagen" 
+        [contenido]="carteleria[0].contenido">
+        </app-cartel>
 
         <h2>Noticias que no se ven con frecuencia por los medios de comunicacios...</h2>
 
         <app-card-wrapper></app-card-wrapper>
+
+        <app-cartel
+        [imagen] = "carteleria[1].imagen" 
+        [contenido]="carteleria[1].contenido">
+        </app-cartel>
+
+        <app-estadisticas-wrapper></app-estadisticas-wrapper>
 
         <h2>Articulos para informarte...</h2>
 

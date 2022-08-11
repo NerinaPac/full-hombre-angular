@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 import * as AOS from 'aos';
 
 @Component({
@@ -9,6 +9,9 @@ import * as AOS from 'aos';
 export class CartelComponent implements OnInit {
 
   constructor() { }
+
+  @Input() imagen? = "";
+  @Input() contenido: string | undefined;
 
 
   cartelAnima () {
