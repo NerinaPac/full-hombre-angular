@@ -11,6 +11,7 @@ export class EstadisticaComponent implements OnInit {
   @Input() titulo: string | undefined;
   @Input() imagen? = "";
   @Input() subtitulo: string | undefined;
+  @Input() fuente: string | undefined;
 
   ngOnInit(): void {
   }
