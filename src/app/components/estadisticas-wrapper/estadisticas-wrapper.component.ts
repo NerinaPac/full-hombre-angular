@@ -20,7 +20,7 @@ export class EstadisticasWrapperComponent implements OnInit {
       "titulo":"Estadisticas por Suicidio",
       "imagen":"assets/estadisticas/tabla-suicidio.png",
       "subtitulo": "Segun un informe realizado por la Secretaria de Seguridad y Politica Criminal del Miniesterio de Seguridad Argentina, se determino que en un periodo de cuatro años el 79,6% de los suicidas fueron varones. Aun existiendo las estadisticas, no hay contencion para los hombres.",
-      "fuente": "Informacion extraida de https://estadisticascriminales.minseg.gob.ar/"
+      "fuente": "Informacion extraida de https://estadisticascriminales.minseg.gob.ar"
     }
     
   ]
