@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { ICarrucelItem } from 'src/app/components/carrucel/Icarrucel-item.metadata';
+import { CARRUCEL_DATA_ITEMS } from 'src/assets/info/carousel.const';
 
 @Component({
   selector: 'app-home',
@@ -6,6 +8,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./home.component.scss']
 })
 export class HomeComponent implements OnInit {
+
+  public carrucelData: ICarrucelItem[] = CARRUCEL_DATA_ITEMS;
 
   constructor() { }
   

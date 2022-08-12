@@ -10,7 +10,7 @@ export class CarrucelComponent implements OnInit {
 
   /* Custom Properties: Propiedades que vienen directo del Padre */
 
-  @Input() height = 500;
+  @Input() height = 600;
   @Input() isFullScreen = false;
   @Input() items: ICarrucelItem[] = [];
 
@@ -24,25 +24,6 @@ export class CarrucelComponent implements OnInit {
     this.finalHeight = this.isFullScreen ? '100vh' : `${this.height}px`;
    }
 
-   carrucel = [
-    {
-      imagen: "assets/carrucel/naruto.jpg",
-      titulo: "Naruto Uzumaki",
-      contenido: "Yo jamas de rendire, y jamas retrocedere a mi palabra, porque ese es mi camino ninja!"
-    },
-    {
-      imagen: "assets/carrucel/hombre-depresivo.jpg",
-      titulo: "La Depresion",
-      contenido: "Es el asesino silencioso del cual el estado es complice y tiene como principal victima al hombre."
-    },
-    {
-      imagen: "assets/carrucel/hombre-abs.jpg",
-      titulo: "Naruto Uzumaki",
-      contenido: "Yo jamas de rendire, y jamas retrocedere a mi palabra, porque ese es mi camino ninja!"
-    }
-    
-    
-   ]
 
   ngOnInit(): void {
     this.items.map( (i, index) =>{

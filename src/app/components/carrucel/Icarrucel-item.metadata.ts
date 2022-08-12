@@ -1,9 +1,6 @@
 export interface ICarrucelItem {
     id: number;
-    title?:{
-        first: string;
-        second: string;
-    };
+    title?:string;
     subtitle?: string;
     link?: string;
     image: string;

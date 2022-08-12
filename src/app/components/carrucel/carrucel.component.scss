@@ -24,7 +24,6 @@
         align-self: stretch;
         display: flex;
         overflow: hidden;
-        background-image: url('/assets/carrucel/naruto2.jpg');
         
         &-item {
             
@@ -42,15 +41,12 @@
             
            
             
-            h1 {
-                color: white;
+            h2 {
+                color: orange;
                 font-weight: 900;
                 text-transform: uppercase;
                 z-index: 1;
-                span {
-                    color: #FF8000;
-
-                }
+                
             }
             p {
                 z-index: 1;
@@ -78,25 +74,4 @@
         }
     }
 
-    &__steps {
-        position: absolute;
-        bottom: 40px;
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        &-step {
-            height: 8px;
-            width: 25px;
-            margin: 0 5px;
-            border-radius: 5px;
-            border: 1px solid rgba(255, 255, 255, 0.7);
-            cursor: pointer;
-            transition: 0.75s all ease-in-out;
-            &:hover, &-active{
-                opacity: 0.7;
-                background-color: #fff;
-            }
-
-        }
-    }
 }
