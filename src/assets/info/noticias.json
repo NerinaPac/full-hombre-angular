@@ -2,25 +2,29 @@
     {
         "imagen": "assets/noticias/homicidio.jpg",
         "titulo": "Mató a su pareja en la cama y lo descuartizó .",
-        "contenido": "Los jueces decidieron por unanimidad absolver a Mafalda al considerar que ella padecia violencia de genero, aún después de describir los detalles de cómo intentó descuartizar el cuerpo y esconderlo en un galpón al fondo de su casa"
+        "contenido": "Los jueces decidieron por unanimidad absolver a Mafalda al considerar que ella padecia violencia de genero, aún después de describir los detalles de cómo intentó descuartizar el cuerpo y esconderlo en un galpón al fondo de su casa",
+        "alternativo":"Mujer que asesinó a su esposo"
     },
 
     {
     "imagen": "assets/noticias/lucio-dupuy.webp",
     "titulo": "Lucio: Un padre que lucho por su tenencia, y un descarrador final.",
-    "contenido": "Lorem ipsum sarasa blah Lorem ipsum sarasa blah Lorem ipsum sarasa blah"
+    "contenido": "Lorem ipsum sarasa blah Lorem ipsum sarasa blah Lorem ipsum sarasa blah",
+    "alternativo":"Lucio Dupuy, niño que fue asesinado por su madre, junto con su padre"
     },
 
     {
     "imagen": "assets/noticias/jonny.webp",
     "titulo": "Jhonny Depp: Victima de violencia de genero femenino.",
-    "contenido": "Lorem ipsum sarasa blah sa Lorem ipsum sarasa blah sa"
+    "contenido": "Lorem ipsum sarasa blah sa Lorem ipsum sarasa blah sa",
+    "alternativo":"Actor Jhnny Depp acostado sobre una camilla, golpeado y con un dedo roto"
      },
 
      {
     "imagen": "assets/noticias/padre-ucrania-nene.webp",
     "titulo": "Ucrania: Los hombres estan obligados a ir a la guerra.",
-    "contenido": "Lorem ipsum sarasa blah sa Lorem ipsum sarasa blah sa"    
+    "contenido": "Lorem ipsum sarasa blah sa Lorem ipsum sarasa blah sa",
+    "alternativo":"Soldado Ucraniano, llorando, despidiendose de su hijo antes de ir a a guerra"    
      }
      
 ]

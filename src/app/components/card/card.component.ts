@@ -20,6 +20,7 @@ export class CardComponent implements OnInit {
   @Input() contenido: string | undefined;
   @Input() destacado? = false;
   @Input() precio: number | undefined;
+  @Input() alternativo: string | undefined;
 
   numeros = [56, 23, 78, 235, 898, 2323];
 
