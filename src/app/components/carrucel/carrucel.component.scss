@@ -42,7 +42,7 @@
            
             
             h2 {
-                margin: 0 9rem;
+                margin: 0 4rem;
                 color: orange;
                 font-weight: 900;
                 text-transform: uppercase;
@@ -50,7 +50,7 @@
                 
             }
             p {
-                margin: 0 9rem;
+                margin: 0 4rem;
                 z-index: 1;
                 color: white;
                 font-weight: 500;
@@ -67,6 +67,7 @@
         margin: auto;
         display: flex;
         justify-content: space-between;
+        z-index: 2;
         > i {
             opacity: 0.7;
             color: #FFF;
@@ -76,4 +77,41 @@
         }
     }
 
+
+
+}
+
+@media (max-width: 700px) {
+
+    .dsc-carrucel__content-item {
+
+        h2 {
+            font-size:20px;
+        } 
+
+        p {
+                font-size: 15px;
+        }
+
+
+    
+        
+    }
+}
+
+@media (max-width: 600px) {
+
+    .dsc-carrucel__content-item {
+        
+
+        h2 {
+            font-size:18px;
+        } 
+
+        p {
+                font-size: 12px;
+        }
+
+        
+    }
 }
