@@ -10,7 +10,7 @@ export class CarrucelComponent implements OnInit {
 
   /* Custom Properties: Propiedades que vienen directo del Padre */
 
-  @Input() height = 500;
+  @Input() height = 550;
   @Input() isFullScreen = false;
   @Input() items: ICarrucelItem[] = [];
 
