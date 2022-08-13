@@ -20,7 +20,7 @@ export const CARRUCEL_DATA_ITEMS: ICarrucelItem[] = [
     {
         id: 1,
         title: "El Estado y los medios de comunicacion distorsionan la sociedad difundiendo informacion confusa.",
-        subtitle: "El estado y los medios, criminalizan al varon, ocacionando así un distanciamiento entre la humanidad.",
+        subtitle: "",
         link: '/',
         image: "assets/carrucel/manipulacion.jpg"
 
