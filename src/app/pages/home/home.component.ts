@@ -20,11 +20,13 @@ export class HomeComponent implements OnInit {
   carteleria:any = [
     {
       "imagen":"assets/carteles/empresario.png",
-    "contenido": "Sabias que hay muchas noticias, tanto por actos destacados como por hechos tragicos, en donde el hombre es el protagonista, pero los medios de comunicacion no las publican?"
+    "contenido": "Sabias que hay muchas noticias, tanto por actos destacados como por hechos tragicos, en donde el hombre es el protagonista, pero los medios de comunicacion no las publican?",
+    "alternativo":"hombre animado levantando el dedo indice haciendo enfasis en lo que dice"
     },
     {
       "imagen":"assets/carteles/hombre-llora.png",
-    "contenido": "Sabias que existe una enorme brecha de genero en cuanto a mortalidad y esperanza de vida, siendo los hombres los principales damnificados de esto, siendo complices la sociedad y los paises en general, ya que dichas cifras se encuentran oficialmente documentadas?"
+    "contenido": "Sabias que existe una enorme brecha de genero en cuanto a mortalidad y esperanza de vida, siendo los hombres los principales damnificados de esto, siendo complices la sociedad y los paises en general, ya que dichas cifras se encuentran oficialmente documentadas?",
+    "alternativo":"hombre animado llorando"
     }
     
   ]

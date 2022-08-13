@@ -12,6 +12,7 @@ export class CartelComponent implements OnInit {
 
   @Input() imagen? = "";
   @Input() contenido: string | undefined;
+  @Input() alternativo: string | undefined;
 
 
   cartelAnima () {
