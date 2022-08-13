@@ -96,12 +96,7 @@
         .encabezado{
         font-size:small;
     }
-    .botonera-list-item-a{
-        background-color: var(--grisclaro);
-        border: 1px outset black;
-        padding: 8px;
-        margin: 0;
-    }
+   
 }
 
 @media (max-width: 980px) {
@@ -131,6 +126,7 @@
         font-size:x-small;
     }
     .botonera-list-item-a{
+        margin: 0 5px;
         font-size: 12px;
     }
 
@@ -155,7 +151,14 @@
     .botonera-list{
         display: inline;
         flex-wrap:wrap;
-       
+
+        &-item-a{
+            background-color: var(--grisclaro);
+            border: 1px outset black;
+            padding: 8px;
+            margin: 0;
+        }
+
     }
 
    

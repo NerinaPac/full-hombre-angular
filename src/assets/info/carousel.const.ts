@@ -11,16 +11,16 @@ export const CARRUCEL_DATA_ITEMS: ICarrucelItem[] = [
     },
     {
         id: 1,
-        title: "El hombre se jubila a los 65 años. 5 años más tarde que la mujer",
-        subtitle: "A pesar de que la esperanza de vida del hombre, es menor que la mujer, éste se jubila más tarde..",
+        title: "El hombre se jubila a los 65 años. 5 años más tarde que la mujer.",
+        subtitle: "A pesar de que la esperanza de vida del hombre, es menor que la mujer, éste se jubila más tarde.",
         link: '/',
         image: "assets/carrucel/hombre-trabajando.jpg"
 
     },
     {
         id: 1,
-        title: "El Estado y los medios de comunicacion distorsionan la sociedad difundiendo informacion confusa",
-        subtitle: "El estado y los medios, criminalizan al varon, ocacionando así una desunion de la humanidads",
+        title: "El Estado y los medios de comunicacion distorsionan la sociedad difundiendo informacion confusa.",
+        subtitle: "El estado y los medios, criminalizan al varon, ocacionando así un distanciamiento entre la humanidad.",
         link: '/',
         image: "assets/carrucel/manipulacion.jpg"
 
