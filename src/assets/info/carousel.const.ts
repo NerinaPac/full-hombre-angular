@@ -12,7 +12,7 @@ export const CARRUCEL_DATA_ITEMS: ICarrucelItem[] = [
     {
         id: 1,
         title: "El hombre se jubila a los 65 años. 5 años más tarde que la mujer.",
-        subtitle: "A pesar de que la esperanza de vida del hombre, es menor que la mujer, éste se jubila más tarde.",
+        subtitle: "A pesar de que la esperanza de vida del hombre es menor que la mujer, éste se jubila más tarde.",
         link: '/',
         image: "assets/carrucel/hombre-trabajando.jpg"
 
