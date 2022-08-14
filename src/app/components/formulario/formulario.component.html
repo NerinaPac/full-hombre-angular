@@ -1,33 +1,55 @@
+<div class="denuncia">
+    <form action="api/agregar-exposicion" class="denuncia-form" method="post">
 
-<form name="contacto" netlify class="denuncia" netlify netlify-honeypot="bot-field">
-       
+
+
         <label class="denuncia-form_campos"> 
-            Nombre:
-            <input type="text" name="nombre">               
+            
+            <input type="text" name="nombre" placeholder=" Nombre" class="formuNombre" title="nombre">  
+
         </label>
-        <br><br>
-        <label class="denuncia-form_campos"> 
-                Apellidos:
-                <input type="text" name="apellido">                   
-        </label>       
-        <br><br>
-        <label class="denuncia-form_campos"> 
-                E-mail:                           
-            <input type="Email" name="email" required>
-        </label>
+
         <br><br>
 
-        <label for="exposicion">
-            Escribinos tu denuncia:
-        <textarea name="exposicion" cols="40" rows="10" class="denuncia-form_campos" title="escribinos tu denuncia"></textarea>
+        <label class="denuncia-form_campos"> 
+                
+                <input type="text" name="apellido" placeholder="  Apellido" class="formuNombre" title="apellido">                   
+        </label>     
+
+        <br><br>
+
+        <label >
+           
+            <input type="text" name="edad" placeholder=" Edad" class="formuNombre" title="edad">
         </label>
-        <br>
 
-        <input type="submit" value="Enviar" class="denuncia_enviar">
+        <br><br>
 
-</form>
+        <label class="denuncia-form_campos"> 
+                                        
+            <input type="Email" name="email"required placeholder=" E-Mail" class="formuNombre" title="e mail">
+        </label>
+        <br><br>
 
-<div class="denunciapoli">
-    <img src="assets\denuncia/policia ax.png" alt="">
+        <label class="denuncia-form_campos"> 
+                                  
+        <input type="tel" name="telefono" required placeholder=" Telefono" class="formuNombre">
+        </label>
+        
+        <br><br>
 
+        <label for="denuncia-form_expo"></label>
+        
+        <textarea name="exposicion" id="denuncia-exposicion"  cols="60" rows="12" class="denuncia-form_campos" > Escribí tu denuncia</textarea>
+
+        <input type="submit" value="Denunciá!" class="denuncia_enviar">
+
+
+    </form>
+
+    <div class="denunciapoli">
+            <img src="assets\denuncia/policia ax.png" alt="">
+
+    </div>
+    
 </div>
