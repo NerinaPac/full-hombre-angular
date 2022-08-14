@@ -34,3 +34,16 @@
 }    
 }
 
+.denunciapoli {
+
+    padding-right: 100px;
+    padding-top: 100px;
+    & img{ 
+    
+        animation-name: culo;
+        animation-duration: 1s;
+        animation-fill-mode: both;
+        
+        filter: drop-shadow(0 2px 5px rgba(0, 0, 0, 0.7));
+    
+    } }
