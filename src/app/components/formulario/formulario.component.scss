@@ -1,59 +1,62 @@
 .denuncia{
 
     background-color: var(--celesteclaro);
-    max-width: 50rem;
+    max-width: 35rem;
     max-height: 60rem;
     margin: 2rem auto;
     border: 2px solid black;
     padding: 1rem;
     box-shadow: 6px 6px 30px;
     display: flex;
+    justify-content: space-around;
+
+    & textarea {
+        resize: none;
+        width: 15rem;
+        height: 5rem;
+    }
  
     &_enviar{
-        margin-left: 19rem;
         padding: 2px 12px;
         
     }
-
-    &enviado {
-        color: red;
-    }
-
    
 }
 
-.formuNombre {
 
-padding: 1px;
-
-}
 
 .denunciapoli {
+max-width: 10rem;
 
-padding-right: 100px;
-padding-top: 100px;
-& img{ 
+    & img{ 
 
-    animation-name: culo;
-    animation-duration: 1s;
-    animation-fill-mode: both;
-    
-    filter: drop-shadow(0 2px 5px rgba(0, 0, 0, 0.7));
+        animation-name: poli;
+        animation-duration: 1s;
+        animation-fill-mode: both;
+        
+        filter: drop-shadow(0 2px 5px rgba(0, 0, 0, 0.7));
+
+    }
 
 }
 
-}
-
-@keyframes culo{ 
+@keyframes poli{ 
 
 0% { 
-
-    transform:scale(1)
-
+transform:scale(1.0)
+    
 }
+
 100%{
 
-    transform:scale(1.4)
+    transform:scale(1.1)
 }
 
+}
+
+@media (max-width: 600px) {
+
+    .denuncia {
+        margin: 0 1rem;
+    }
 }
