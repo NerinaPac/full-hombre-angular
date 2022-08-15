@@ -9,6 +9,11 @@ import * as AOS from 'aos';
 })
 export class AppComponent {
   title = 'AosEx';
+  public page: boolean = false;
+
+
+
+
   ngOnInit():void{
     AOS.init();
   }
