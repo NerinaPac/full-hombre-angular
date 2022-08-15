@@ -4,6 +4,7 @@ import { BrowserModule } from '@angular/platform-browser';
 // Llamadas a APIs
 import { HttpClientModule } from '@angular/common/http';
 
+
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavComponent } from './components/nav/nav.component';
@@ -47,7 +48,8 @@ import { EstadisticasWrapperComponent } from './components/estadisticas-wrapper/
     NoticiaComponent,
     CartelComponent,
     EstadisticaComponent,
-    EstadisticasWrapperComponent
+    EstadisticasWrapperComponent,
+    
   ],
   imports: [
     BrowserModule,
