@@ -3,6 +3,22 @@
     background:var(--celesteclaro);
     clear:left;
     font:14px Helvetica,Arial,sans-serif;
-    width:800px;
+    max-width:800px;
     box-shadow: 0 0 3px;
+
+}
+
+
+
+@media (max-width: 865px) {
+
+    #mc_embed_signup{
+        margin: 4rem 2rem;
+        
+        
+        }
+
+        .logomailchimp {
+            max-width: 5rem;
+        }
 }
