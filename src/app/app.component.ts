@@ -9,7 +9,7 @@ import * as AOS from 'aos';
 })
 export class AppComponent {
   title = 'AosEx';
-  public page: boolean = false;
+  public page: boolean = false
 
 
 
